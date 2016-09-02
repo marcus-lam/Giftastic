@@ -1,0 +1,86 @@
+* {
+	font-family: "Ubuntu", Arial;
+}
+body {
+	background: url(../images/swirl_pattern.png);
+}
+#headerBox{
+	margin: auto;
+	text-align: center;
+	color: orange;
+}
+header {
+	font-size: 80px;
+}
+#slogan {
+	font-size: 27px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#baller-form {
+	margin-bottom: 50px;
+}
+#baller-input {
+	text-align: center;
+	border: 2px solid gray;
+}
+#addBaller {
+	margin-top: 2px;
+	background-color: orange;
+}
+#ballerButtons {
+	margin: auto;
+	width: 1071px;
+}
+button {
+	color: orange; background-color: #000;
+	text-align: center;  font-size: 20px;  line-height: 50px; text-shadow: 0px 0px 3px #888;
+
+	/*Gradient Styles*/
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2f2f2f), color-stop(.5, #1e1f1f), color-stop(.51, #0c0c0c), to(#000));
+	background: -moz-linear-gradient(top, #2f2f2f, #1e1f1f 50%, #0c0c0c 51%, #000);  
+
+	/*Border Styles*/
+	border-top: solid 2px #555;
+	border-bottom: solid 2px #111;
+
+	-moz-box-shadow:inset 0 0 15px white;
+	-webkit-box-shadow:inset 0 0 15px white;
+	box-shadow:inset 0 0 15px white;
+	transition: all 1s ease;
+	margin: 10px 5px;
+}
+button:hover {
+	text-shadow: 0px 0px 3px #444;
+	-moz-box-shadow:inset 0 0 50px white;
+	-webkit-box-shadow:inset 0 0 50px white;
+	box-shadow:inset 0 0 50px white;
+}
+#mainBox {
+	height: 533px;
+	width: 1071px;
+	margin: auto;
+	position: absolute;
+    left: 0; right: 0;
+	background-color: rgba(0, 0, 0, 0.80);
+	outline: 3px dashed white;
+	outline-offset: -8px;
+	box-shadow: 0px 4px 5px orange, 0px -4px 5px orange, -4px 0px 5px orange, 4px 0px 5px orange;
+	-moz-box-shadow: 0px 4px 5px orange, 0px -4px 5px orange, -4px 0px 5px orange, 4px 0px 5px orange;
+	-webkit-box-shadow: 0px 4px 5px orange, 0px -4px 5px orange, -4px 0px 5px orange, 4px 0px 5px orange;
+}
+.ballerImg {
+	width: 200px;
+	height: 200px;
+}
+.baller {
+	float: left;
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-bottom: 10px;
+	display: inline-block;
+	text-align: center;
+}
+.baller p {
+	color: orange;
+}
